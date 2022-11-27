@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none; }
+
+body {
+    background-color: #E8E7F4;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 90px auto 35px;
+    width: 565px;
+    height: 643px;
+    border-radius: 16px;
+    padding: 48px;
+    box-shadow: 1px 1px 20px #E8E7F4;
+}
+
+.logo {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.login {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+input::placeholder {
+    color: #1B1393;
+    opacity: 0.6;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 27px 364px 27px 56px;
+}
+
+input {
+    background-color: #F6F5FE;
+    border: none;
+    border-radius: 16px;
+    width: 469px;
+    height: 68px;
+}
+
+.password {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.remember {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #05022D;
+    margin-bottom: 48px;
+}
+
+.remember input {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-right: 16px;
+
+}
+
+.login_button button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: #1B1393;
+    border-radius: 16px;
+    color: #FFFFFF;
+    border: none;
+    width: 469px;
+    height: 68px;
+
+}
+
+.password_recovery {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 48px 180px;
+    width: 124px;
+    height: 14px;
+    text-align: justify;
+}
+
+a {
+    color: #DD1F2C;
+    text-decoration: none;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
